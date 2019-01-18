@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--Metadata Header-->
+    <head>
+        <title>Google</title>
+        <link rel="stylesheet" type="text/css" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="styleV2.css">
+    </head>
+
+    <!--Body-->
+    <body>
+        <div class="container">
+        <!--Header Links-->
+        <div class="header">
+            <ul class="navbar">
+                <li class="left"><a href="#">About</a></li>
+                <li class="left"><a href="#">Store</a></li>
+                <li class="right" id="sign-in"><a href="#">Sign In</a></li>
+                <li class="right"><img id=apps-icon src="images/apps.png" alt="Google Apps"></li>
+                <li class="right"><a href="#">Images</a></li>
+                <li class="right"><a href="#">Gmail</a></li>
+            </ul>
+        </div>
+
+        <!--Central Search Area-->
+        <div class="center">
+            <div class="content"><img src="images/google-logo.png" class="logo"
+            alt="Google Logo"></div>
+
+        <div class="search-box">   
+            <form id="google-search" action = "searchsript.php" method="post">
+                <input type="text" name="search" id="search-form">
+            </form>
+        </div>   
+
+            <div class="s-buttons">
+                <input form="search-form" type="submit" value="Google Search">
+                <input form="search-form" type="submit" value="I'm Feeling Lucky">
+            </div>
+        </div>
+        <!--Footer Links-->
+        <div class="footer">
+            <span class="footer-left">
+                <a href="#">Advertising</a>
+                <a href="#">Business</a>
+            </span>
+        
+            <span class="footer-right">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Settings</a>
+            </span>
+        </div>
+        </div>
+    </body>
+
+</html>

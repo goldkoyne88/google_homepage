@@ -1,12 +1,47 @@
 <!DOCTYPE html>
-<head></head>
-<body>
-    
-    <img href="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-
-    <form>
-        <input type="text" action="searchresults.html" method="get"> 
-        
-    </form>
-</body>
-<footer></footer>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Google</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <div class="header-left">
+                    <span class="nav"><a href="#">About</a></span>
+                    <span class="nav"><a href="#">Store</a></span>
+                </div>
+                <div class="header-right">
+                    <span class="nav"><a href="#">Gmail</a></span>
+                    <span class="nav"><a href="#">Images</a></span>
+                    <span class="g-apps"><img src="images/apps.png" id="apps-icon" alt="Google Apps"></span>
+                    <span class="sign-in"><a href="#">Sign in</a></span>
+                </div>
+            </div>
+            <div class="content">
+                <img src="images/google-logo.png" class="logo" alt="Google Logo">
+            </div>
+            <div class="search-box">
+                <form class="search-box">
+                    <input type="text" name="search" class="search-form">
+                </form>
+            </div>
+            <div class="s-buttons">
+                <input form="google-search" type="submit" value="Google Search">
+                <input form="google-search" type="submit" value="I'm Feeling Lucky">
+            </div>
+            <div class="footer">
+                <span class="footer-left">
+                    <a href="#">Advertising</a>
+                    <a href="#">Business</a>
+                </span>
+                <span class="footer-left">
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Settings</a>                    
+                </span>
+            </div>
+        </div>
+    </body>
+</html>
