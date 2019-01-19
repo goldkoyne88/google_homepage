@@ -136,14 +136,8 @@ input [type="submit"]:hover {
     height: 25px;
     width: 25px;
     display: flex;
-<<<<<<< HEAD
-    box-sizing: border-box;
-    height:30px;
-    width:30px;
-=======
     justify-content: flex-end;
     align-items: center;
->>>>>>> fa1fb512ae8e619c48d0ff1a924595895fb9032a
     margin-top: -6px;
 }
 
