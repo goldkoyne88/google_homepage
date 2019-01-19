@@ -1,6 +1,7 @@
 html, body {
     margin: 0;
-
+    -webkit-appearance: none;
+    -moz-appearance: none;
 }
 
 .container {
@@ -136,6 +137,7 @@ input [type="submit"]:hover {
     box-sizing: border-box;
     height:30px;
     width:30px;
+    margin-top: -6px;
 }
 
 #sign-in { 
